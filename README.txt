@@ -1,3 +1,5 @@
+1002027941 Axs7941 Abhyudai Singh
+
 README file 
 
 This code consists of a simple client-server program that enables the server to send a file to a client that requests it. The server listens for client requests on a specified port and sends the file requested by the client. The client sends a request for the file by specifying the IP address and port number of the server, and the name of the file to be received.
@@ -19,10 +21,20 @@ Python3 myclient.py [server_IP_address] [server_port] [file_name]
 
 where [server_IP_address] is the IP address of the server, [server_port] is the port number on which the server is listening, and [file_name] is the name of the file to be requested from the server and client shows server details.
 
+Thread count confirms the multi threading and number of clients attached. 
+
+File already has the static files which I used to fetch via browser and terminal. 
 
 
 
 
+
+Requirements 
+
+IDE-Visual Studio Code 
+OS- MacOS Ventura
+Language- Python 3x or higher 
+Imports- threading, os, sys, time
 
 
 
@@ -44,7 +56,7 @@ Client Code
 
 The client code consists of a single function that sends a request to the server for a specified file. The function creates a TCP socket, connects to the server, and sends a request message containing the name of the file to be received. The function then receives the response from the server and saves the contents of the file to disk. 
 
-The RTT time is displayed in microseconds 
+The RTT time is displayed in microseconds.
 
 Limitations and future work 
 
